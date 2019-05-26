@@ -1,0 +1,225 @@
+[System]
+Name='history'
+Type='mamdani'
+Version=2.0
+NumInputs=5
+NumOutputs=18
+NumRules=32
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='buddhisttemples'
+Range=[0 10]
+NumMFs=2
+MF1='bad':'trimf',[-0.5724 0.009441 5.5]
+MF2='good':'trimf',[3.5 10 14]
+
+[Input2]
+Name='archelogicalsite'
+Range=[0 10]
+NumMFs=2
+MF1='bad':'trimf',[-0.5724 0.009441 5.5]
+MF2='good':'trimf',[3.5 10 14]
+
+[Input3]
+Name='architecture'
+Range=[0 10]
+NumMFs=2
+MF1='bad':'trimf',[-0.5724 0.009441 5.5]
+MF2='good':'trimf',[3.5 10 14]
+
+[Input4]
+Name='artsandstatues'
+Range=[0 10]
+NumMFs=2
+MF1='bad':'trimf',[-0.5724 0.009441 5.5]
+MF2='good':'trimf',[3.5 10 14]
+
+[Input5]
+Name='level_of_crowd'
+Range=[0 10]
+NumMFs=2
+MF1='peaceful':'trimf',[-0.5724 0.009441 5.5]
+MF2='crowded':'trimf',[3.5 10 14]
+
+[Output1]
+Name='Isurumuniya'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.397 0.00308 0.299132947976879]
+MF2='normal':'trimf',[0.123795761078998 0.5 0.801]
+MF3='good':'trimf',[0.601926782273603 1.0019267822736 1.4019267822736]
+
+[Output2]
+Name='JayaSriMahaBodhi'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0.00434 0.301059730250482]
+MF2='normal':'trimf',[0.152 0.5 0.8]
+MF3='good':'trimf',[0.600674373795761 1.02 1.42]
+
+[Output3]
+Name='Jetavanaramaya'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.352119460500963]
+MF2='normal':'trimf',[0.199 0.5 0.802023121387283]
+MF3='good':'trimf',[0.605491329479769 1 1.4]
+
+[Output4]
+Name='Mihinthale'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output5]
+Name='Ruwanwelisaya'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output6]
+Name='BogodaBridge'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output7]
+Name='Demodara_Nine_Arch_Bridge'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output8]
+Name='Dhowa_Rock_Temple'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output9]
+Name='Muthiyanganaya'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output10]
+Name='Galle_Fort'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output11]
+Name='Galle_Lighthouse'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output12]
+Name='Temple_Of_The_Tooth'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.100963391136801 0.500963391136801 0.900963391136801]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output13]
+Name='SeethaAmmanTemple'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output14]
+Name='Nissanka_Latha_Mandapaya'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output15]
+Name='Parakrama_Samudra'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output16]
+Name='Rankoth_Vehera'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.0990366088631985 0.499036608863199 0.899036608863199]
+MF3='good':'trimf',[0.600963391136801 1.0009633911368 1.4009633911368]
+
+[Output17]
+Name='Sigiriya'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Output18]
+Name='Batadombalena'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.4 0 0.4]
+MF2='normal':'trimf',[0.1 0.5 0.9]
+MF3='good':'trimf',[0.6 1 1.4]
+
+[Rules]
+1 1 1 1 1, 1 1 1 1 1 2 1 1 1 1 1 1 2 1 1 1 1 2 (1) : 1
+1 1 1 1 2, 2 2 2 2 2 1 2 1 1 1 1 1 1 1 1 1 1 1 (1) : 1
+1 1 1 2 2, 3 1 1 1 1 1 1 1 2 1 1 1 1 2 2 1 3 1 (1) : 1
+1 1 1 2 1, 3 1 1 1 1 1 1 1 2 1 1 1 1 2 2 1 2 1 (1) : 1
+1 1 2 1 1, 1 1 1 1 1 3 2 1 1 2 2 1 1 2 2 1 2 1 (1) : 1
+1 1 2 1 2, 1 1 1 1 1 2 3 1 1 3 3 1 1 3 3 1 3 1 (1) : 1
+1 1 2 2 1, 2 1 1 1 1 2 2 1 1 2 2 1 2 2 2 1 2 1 (1) : 1
+1 1 2 2 2, 3 1 1 1 1 2 3 1 1 3 3 1 2 3 2 1 3 1 (1) : 1
+1 2 1 1 1, 1 1 1 1 1 2 1 1 1 1 1 1 1 2 1 1 2 2 (1) : 1
+1 2 2 1 2, 1 1 1 1 1 2 1 1 1 1 1 1 1 3 1 1 3 2 (1) : 1
+1 2 1 2 1, 2 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 2 2 (1) : 1
+1 2 1 2 2, 3 1 1 1 1 1 1 1 1 1 1 1 1 3 3 1 3 3 (1) : 1
+1 2 2 1 1, 1 1 1 1 1 2 1 1 1 2 2 1 2 2 1 1 2 2 (1) : 1
+1 2 2 1 2, 1 1 1 1 1 3 1 1 1 3 3 1 2 3 1 1 3 3 (1) : 1
+1 2 2 2 1, 2 1 1 1 1 2 2 1 1 2 2 1 2 2 2 1 2 2 (1) : 1
+1 2 2 2 2, 3 1 1 1 1 3 3 1 1 3 3 1 2 3 2 1 3 3 (1) : 1
+2 1 1 1 1, 1 2 2 2 2 1 1 2 2 1 1 2 1 1 1 2 1 1 (1) : 1
+2 1 1 1 2, 1 3 3 3 3 1 1 3 3 1 1 3 1 1 1 3 1 1 (1) : 1
+2 1 1 2 1, 1 2 2 2 2 1 1 2 2 1 1 3 1 1 1 2 1 1 (1) : 1
+2 1 1 2 2, 1 3 3 3 3 1 1 3 3 1 1 3 1 1 1 3 1 1 (1) : 1
+2 1 2 1 1, 1 2 2 2 2 1 1 3 2 1 1 2 1 1 1 2 1 1 (1) : 1
+2 1 2 1 2, 1 2 2 2 2 1 1 3 2 1 1 3 1 1 1 3 1 1 (1) : 1
+2 1 2 2 1, 1 2 2 2 2 1 1 3 2 1 1 2 1 1 1 2 1 1 (1) : 1
+2 1 2 2 2, 1 3 3 3 3 1 1 3 3 1 1 3 1 1 1 3 1 1 (1) : 1
+2 2 1 1 1, 1 2 3 3 3 1 1 2 2 1 1 2 1 1 1 2 1 1 (1) : 1
+2 2 1 1 2, 1 3 3 3 3 1 1 3 2 1 1 3 1 1 1 2 1 1 (1) : 1
+2 2 1 2 1, 1 2 2 2 2 1 1 3 2 1 1 2 1 1 1 2 1 1 (1) : 1
+2 2 1 2 2, 1 3 3 3 3 1 1 3 3 1 1 3 1 1 1 2 1 1 (1) : 1
+2 2 1 1 1, 1 2 2 2 2 1 1 2 2 1 1 2 1 1 1 2 1 1 (1) : 1
+2 2 1 1 2, 1 3 3 3 3 1 1 3 3 1 1 3 1 1 1 3 1 1 (1) : 1
+2 2 2 2 1, 1 2 2 2 2 1 1 2 2 1 1 2 1 1 1 2 1 1 (1) : 1
+2 2 2 2 2, 1 3 3 3 3 1 1 3 2 1 1 3 1 1 1 3 1 1 (1) : 1
